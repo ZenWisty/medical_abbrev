@@ -1,0 +1,6 @@
+.env
+.venv
+.claude/agents/*
+！.claude/agents/code-debugger.md
+！.claude/agents/code-reviewer.md
+.claude/skills/*
