@@ -1,4 +1,4 @@
-"""mtsamples.com provider implementation — re-export from subpackage."""
+"""mtsamples.com provider — subpackage for HTTP, parsing, and storage."""
 
 from providers.mtsamples.provider import MedAbbrevProvider
 
