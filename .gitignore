@@ -5,3 +5,13 @@
 ！.claude/agents/code-reviewer.md
 .claude/skills/*
 examples/tmp
+engineering/*
+examples/medical-term-data-acquire
+data/speech
+!.claude/skills/filter-out-medterm
+!.claude/skills/video_speechtxt_shrink
+!.claude/skills/video_speechtxt_translate
+
+
+#temporarily
+dev/build-local-medabbrev-db
