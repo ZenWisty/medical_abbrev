@@ -1,6 +1,6 @@
 ---
 name: video_speechtxt_translate
-description: Translates a bilingual subtitle file (speech text with timestamps) into Chinese. Use this skill whenever the user provides a BV*_subtitle.md file path (from bilibili video speech text) and asks to translate it to Chinese, or mentions translating subtitle files, bilingual subtitles, or converting English subtitles to Chinese. Make sure to use this skill when the user wants to translate video speech text with timestamps.
+description: Translates a bilingual subtitle file (speech text with timestamps) into Chinese. Use this skill whenever the user provides a BV*_subtitle.md file path and asks to translate it to Chinese, or mentions translating subtitle files, bilingual subtitles, or converting English subtitles to Chinese. Make sure to use this skill when the user wants to translate video speech text with timestamps.
 compatibility: Read, Write, Bash
 ---
 
@@ -11,7 +11,7 @@ This skill translates a bilingual subtitle file (speech text with timestamps) in
 When spawning a sub-agent (Agent tool) to assist with this skill, set `model: "opus"` or use the parent conversation's model so the sub-agent uses a capable model (not haiku).
 
 ## When to Use
-When the user provides a `BV*_subtitle.md` file path (from bilibili video speech text) and wants it translated to Chinese and saved to a target `.md` location.
+When the user provides a `BV*_subtitle.md` file path and wants it translated to Chinese and saved to a target `.md` location.
 
 ## Input
 1. `source_file` — the path to the source subtitle file (e.g. `BV1Ra5K61EQ4_P2_P2_P2_subtitle.md`)
